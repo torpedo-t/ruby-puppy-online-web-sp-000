@@ -17,8 +17,8 @@ class Dog
 #binding.pry
   def self.print_all
     @@all.each do |dog_name|
-      #binding.pry
-      puts "#{dog_name}"
+      dog_name.each do |name|
+      puts "#{name}"
   end
   end
 
