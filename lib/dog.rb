@@ -18,5 +18,6 @@ class Dog
   end
 
   def self.clear_all(name)
-    
+    @@all.clear_all
+  end
 end
