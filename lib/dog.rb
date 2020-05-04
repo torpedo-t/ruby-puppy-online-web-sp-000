@@ -14,7 +14,7 @@ class Dog
 #binding.pry
   def self.print_all(name)
 binding.pry
-    @@all.map do |dog_name|
+    @@all.map |dog_name|
       puts "#{dog_name}"
   end
   end
